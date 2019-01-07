@@ -1,0 +1,5 @@
+L0020:DevOps-with-Docker juhojuutilainen$ docker ps -a
+CONTAINER ID        IMAGE               COMMAND                  CREATED              STATUS                     PORTS               NAMES
+322aa97e2df6        nginx               "nginx -g 'daemon of…"   About a minute ago   Exited (0) 5 seconds ago                       heuristic_cocks
+22c70239d896        nginx               "nginx -g 'daemon of…"   About a minute ago   Exited (0) 2 seconds ago                       eloquent_proskuriakova
+11c7b7311807        nginx               "nginx -g 'daemon of…"   About a minute ago   Up About a minute          80/tcp              flamboyant_sinoussi

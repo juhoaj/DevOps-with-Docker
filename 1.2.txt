@@ -1,0 +1,4 @@
+L0020:DevOps-with-Docker juhojuutilainen$ docker images
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+L0020:DevOps-with-Docker juhojuutilainen$ docker ps -a
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES

@@ -1,0 +1,2 @@
+docker build -t 1.6 .
+docker run -v $(pwd)/backend-example-docker/logs.txt:/srv/palvelu/logs.txt -p 8000:8000 1.6

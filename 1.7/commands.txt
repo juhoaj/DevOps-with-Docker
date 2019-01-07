@@ -1,0 +1,5 @@
+docker build -f Frontti -t 1.7.frontti .
+docker run -d -p 5000:5000 1.7.frontti
+
+docker build -f Bakki -t 1.7.bakki .
+docker run -d -v $(pwd)/backend-example-docker/logs.txt:/srv/palvelu/logs.txt -ti -p 8000:8000 1.7.bakki
